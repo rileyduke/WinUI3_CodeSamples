@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainWindow.xaml" />
+    <Page Include="BlankPage.xaml">
+      <Filter>Pages\Test</Filter>
+    </Page>
+    <Page Include="PageA.xaml">
+      <Filter>Pages\PageA</Filter>
+    </Page>
+    <Page Include="PageB.xaml">
+      <Filter>Pages\PageB</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="App.idl" />
+    <Midl Include="MainWindow.idl" />
+    <Midl Include="BlankPage.idl">
+      <Filter>Pages\Test</Filter>
+    </Midl>
+    <Midl Include="PageA.idl">
+      <Filter>Pages\PageA</Filter>
+    </Midl>
+    <Midl Include="PageB.idl">
+      <Filter>Pages\PageB</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{e48dc53e-40b1-40cb-970a-f89935452892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pages">
+      <UniqueIdentifier>{c0da2e74-89b8-4010-b728-425a546fceb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pages\Test">
+      <UniqueIdentifier>{835139d1-9252-469f-9800-1b15d6890666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pages\PageA">
+      <UniqueIdentifier>{6ab6af25-dac0-473e-9d77-ca7d764c7730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pages\PageB">
+      <UniqueIdentifier>{6c123a84-ca49-4aaa-8dc1-6ec86fb57ae2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PropertySheet.props" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="app.manifest" />
+  </ItemGroup>
+</Project>

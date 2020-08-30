@@ -1,0 +1,9 @@
+namespace NavigationExample
+{
+    [default_interface]
+    runtimeclass PageB : Microsoft.UI.Xaml.Controls.Page
+    {
+        PageB();
+        Int32 MyProperty;
+    }
+}
