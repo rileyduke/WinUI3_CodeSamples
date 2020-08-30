@@ -5,9 +5,6 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainWindow.xaml" />
-    <Page Include="BlankPage.xaml">
-      <Filter>Pages\Test</Filter>
-    </Page>
     <Page Include="PageA.xaml">
       <Filter>Pages\PageA</Filter>
     </Page>
@@ -18,9 +15,6 @@
   <ItemGroup>
     <Midl Include="App.idl" />
     <Midl Include="MainWindow.idl" />
-    <Midl Include="BlankPage.idl">
-      <Filter>Pages\Test</Filter>
-    </Midl>
     <Midl Include="PageA.idl">
       <Filter>Pages\PageA</Filter>
     </Midl>
@@ -43,9 +37,6 @@
     </Filter>
     <Filter Include="Pages">
       <UniqueIdentifier>{c0da2e74-89b8-4010-b728-425a546fceb5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Pages\Test">
-      <UniqueIdentifier>{835139d1-9252-469f-9800-1b15d6890666}</UniqueIdentifier>
     </Filter>
     <Filter Include="Pages\PageA">
       <UniqueIdentifier>{6ab6af25-dac0-473e-9d77-ca7d764c7730}</UniqueIdentifier>

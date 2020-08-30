@@ -90,9 +90,6 @@
     <Manifest Include="app.manifest" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BlankPage.xaml.h">
-      <DependentUpon>BlankPage.xaml</DependentUpon>
-    </ClInclude>
     <ClInclude Include="PageA.xaml.h">
       <DependentUpon>PageA.xaml</DependentUpon>
     </ClInclude>
@@ -109,15 +106,11 @@
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml" />
-    <Page Include="BlankPage.xaml" />
     <Page Include="MainWindow.xaml" />
     <Page Include="PageA.xaml" />
     <Page Include="PageB.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BlankPage.xaml.cpp">
-      <DependentUpon>BlankPage.xaml</DependentUpon>
-    </ClCompile>
     <ClCompile Include="PageA.xaml.cpp">
       <DependentUpon>PageA.xaml</DependentUpon>
     </ClCompile>
@@ -139,7 +132,6 @@
     <Midl Include="App.idl">
       <SubType>Code</SubType>
     </Midl>
-    <Midl Include="BlankPage.idl" />
     <Midl Include="MainWindow.idl">
       <SubType>Code</SubType>
     </Midl>
